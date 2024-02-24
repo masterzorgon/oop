@@ -7,6 +7,7 @@ class Coin:
     # The _ _init_ _ method initializes the
     # sideup data attribute with 'Heads'.
 
+    # the `__init__` function ois required; it instantiates attribute values
     def __init__(self):
         self.sideup = 'Heads'
 
