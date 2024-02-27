@@ -20,7 +20,7 @@ class BankAccount:
       # from the account.
 
     def withdraw(self, amount):
-
+        self.balance -= amount
 
       # The get_balance method returns the
       # account balance.
