@@ -1,10 +1,10 @@
 
 
 class CellPhone:
-    def __init__(self):
-        self.__manufact = ""
-        self.__model = ""
-        self.__retail_price = 0
+    def __init__(self, manufact, model, retail_price):
+        self.__manufact = manufact
+        self.__model = model
+        self.__retail_price = retail_price
     
     def set_manufact(self, manufact):
         self.__manufact = manufact

@@ -5,11 +5,15 @@ def main():
     model = "Iphone 15 Pro"
     retail_price = 1000
 
-    cellphone = cpc.CellPhone()
+    cellphone = cpc.CellPhone(manufact, model, retail_price)
 
-    cellphone.set_manufact(manufact)
-    cellphone.set_model(model)
-    cellphone.set_retail_price(retail_price)
+    print(cellphone.get_manufact())
+    print(cellphone.get_model())
+    print(cellphone.get_retail_price())
+
+    cellphone.set_manufact("Black Berry")
+    cellphone.set_model("123eedD")
+    cellphone.set_retail_price(400)
 
     print(cellphone.get_manufact())
     print(cellphone.get_model())
